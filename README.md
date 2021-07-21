@@ -1,6 +1,6 @@
 # UV Checker Map Generator
 
-This Processing script generates a checkerboard pattern for UV mapping.
+This very easily configurable Processing script generates a checkerboard pattern for UV mapping.
 
 ## Example
 
