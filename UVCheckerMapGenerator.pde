@@ -4,7 +4,7 @@ private static final int WIDTH_TEX = 16;
 private static final int HEIGHT_TEX = 16;
 private static final int LINE_WIDTH = 2;
 private static final int TEXT_SIZE = 32;
-private static final String EXPORT_FILE_NAME = "256x256-in-1024x1024.png";
+private static final String EXPORT_FILE_NAME = "16x16-in-1024x1024.png";
 
 private static final int WIDTH_PER_TEX = WIDTH / WIDTH_TEX;
 private static final int HEIGHT_PER_TEX = HEIGHT / HEIGHT_TEX;
