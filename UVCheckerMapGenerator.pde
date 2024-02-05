@@ -1,3 +1,4 @@
+private static final int START_INDEX = 0;
 private static final int WIDTH = 1024;
 private static final int HEIGHT = 1024;
 private static final int WIDTH_TEX = 16;
@@ -20,7 +21,7 @@ void draw() {
   colorMode(HSB, HEIGHT_TEX + WIDTH_TEX, 1, 1);
   textSize(TEXT_SIZE);
 
-  int index = 0;
+  int index = START_INDEX;
   for (float y = 0; y < HEIGHT_TEX; y++) {
     for (float x = 0; x < WIDTH_TEX; x++) {
       fill(color(x + y, 1, 1));
